@@ -1,0 +1,40 @@
+{
+  "name": "fe-js-04-01-p",
+  "version": "1.0.0",
+  "description": "Moduł JavaScript - Lekcja 4, zadanie 1 poziom podstawowy",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.portal.futurecollars.com/root/fe-js-04-01-p.git"
+  },
+  "author": "Paweł Ochota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.portal.futurecollars.com/root/fe-js-04-01-p/issues"
+  },
+  "homepage": "https://gitlab.portal.futurecollars.com/root/fe-js-04-01-p#readme",
+  "private": true,
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.3.0",
+    "jest": "25.1.0",
+    "jest-junit": "^10.0.0"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
+  },
+  "jest-junit": {
+    "outputDirectory": ".futurecollars",
+    "outputName": "test-results.xml"
+  }
+}
