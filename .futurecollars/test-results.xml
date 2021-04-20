@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" time="3.307">
+  <testsuite name="Funkcja fillElement" errors="0" failures="0" skipped="0" timestamp="2021-04-20T09:07:58" time="1.906" tests="3">
+    <testcase classname="Funkcja fillElement powinna zwracać element HTML" name="Funkcja fillElement powinna zwracać element HTML" time="0.003">
+    </testcase>
+    <testcase classname="Funkcja fillElement powinna zwracać element HTML, który nie jest pusty" name="Funkcja fillElement powinna zwracać element HTML, który nie jest pusty" time="0.01">
+    </testcase>
+    <testcase classname="Funkcja fillElement powinna zwracać element HTML z tekstem otrzymanym w parametrze funkcji" name="Funkcja fillElement powinna zwracać element HTML z tekstem otrzymanym w parametrze funkcji" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
